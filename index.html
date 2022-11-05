@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px 0px;
+            margin: 0px 0px;
+        }
+        .header{
+            /* border: 2px solid yellow; */
+            position: absolute;
+            text-align: center;
+        }
+        header{
+            height: 60px;
+            background-color:rgb(36, 13, 13);;
+            
+        }
+        #right{
+            cursor: pointer;
+            height: 50px;
+            top:14px;
+            left: 50px;
+        }
+        img{
+            width: 50px;
+        }
+        #mid{
+            cursor: pointer;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            top:10px;
+            left:140px;
+        }
+        #ulist{
+            display: inline-block;
+        }
+        #ulist li{
+            display: inline-block;
+            margin: 20px;
+        }
+        #left{
+            /* border: 2px solid yellow; */
+            color: white;
+            left: 450px;
+            font-size: 25px;
+            cursor: pointer;
+        }
+        #idlist:hover{
+            color: grey;
+        }
+        .header button{
+            cursor: pointer;
+            border: grey;
+            color: white;
+            background-color: black;
+            border: 2px solid grey;
+            border-radius: 20px;
+            padding: 10px;
+            font-size: 20px;
+        }
+        #buttonheader{
+            right: 200px;
+            top: 10px;
+        }
+        #buttonheader1{
+            text-decoration: none;
+            color: white;
+        }
+        #buttonheader1:hover{
+            color:black;
+            background-color: white;
+        }
+        #buttonheader2:hover{
+            background-color: white;
+        }
+        #photo{
+            margin: 25px;
+            background-color: antiquewhite;
+            border: 2px solid black;
+            padding: 6px;
+            border-radius: 20px;
+        }
+        #strong{
+            color: skyblue;
+            font-weight: bold;
+        }
+        .images{
+            /* border: 2px solid black; */
+        }
+        #div1 img{
+            align-self: center;
+            cursor: pointer;
+            margin-left: 150px;
+            width: 300px;
+            margin-bottom: 20px;
+        }
+        #id2 img{
+            align-self: center;
+            cursor: pointer;
+            margin-left: 150px;
+            width: 300px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="right" class="header">
+            <!-- <p>I am right</p> -->
+            <img id ="img"src="/cameraimg.webp" alt="">
+        </div>
+        <div id="mid" class="header">
+            <p>IMAGE</p>
+        </div>
+        <div class="header" id="left">
+            <ul id="ulist">
+                <li id="idlist"><a href="#"></a>Home</li>
+                <li id="idlist"><a href="#"></a>About</li>
+                <li id="idlist"><a href="#"></a>Blogs</li>
+                <li id="idlist"><a href="#"></a>Plans</li>
+                <li id="idlist"><a href="#"></a>Gallery</li>
+                <li id="idlist"><a href="#"></a>Contact Us</li>
+            </ul>
+        </div>
+        <div class="header" id="buttonheader">
+            <button id="buttonheader2"><a href="#" id="buttonheader1">Book Trial</a>
+        </div>
+    </header>
+    <div id="photo">
+        <p id="strong">Photographer's Blog</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla blanditiis aliquid laboriosam, sapiente magni aspernatur. Fugit velit accusantium unde commodi consectetur ducimus vitae, cupiditate adipisci repudiandae minus reprehenderit dolorem, sequi amet. Distinctio, iste magnam?</p>
+    </div>
+    <div class="images">
+        <div id="div1">
+        <img src="/image 1.jpg" alt="">
+        <img src="/image 2.jpg" alt="">
+        <img src="/image 2.jpg" alt="">
+    </div>
+</div>
+<div id="id2">
+    <img src="/image 1.jpg" alt="">
+    <img src="/image 5.jpg" alt="">
+    <img src="/image 6.jpg" alt="">
+
+    </div>
+    <div id="id2">
+        <img src="/image 1.jpg" alt="">
+        <img src="/image 5.jpg" alt="">
+        <img src="/image 6.jpg" alt="">
+    
+        </div>
+</body>
+</html>
